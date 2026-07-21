@@ -1,0 +1,39 @@
+:root {
+  color-scheme: light;
+  font: 16px/1.5 'Trebuchet MS', 'Segoe UI', sans-serif;
+  color: #111827;
+  background:
+    radial-gradient(circle at top left, rgba(251, 146, 60, 0.22), transparent 34%),
+    radial-gradient(circle at top right, rgba(253, 186, 116, 0.18), transparent 28%),
+    linear-gradient(180deg, #fff7ed 0%, #fff 40%, #fffaf3 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
